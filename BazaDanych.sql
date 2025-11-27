@@ -1,0 +1,11 @@
+CREATE DATABASE Projekt_BD;
+
+USE Projekt_BD;
+
+CREATE TABLE Sprzet (
+	id INT IDENTITY(1,1) PRIMARY KEY,
+	typ VARCHAR NOT NULL,
+	marka VARCHAR NOT NULL,
+	data_zakupu DATE DEFAULT GETDATE(),
+	wypozyczone BIT DEFAULT 0
+	)
