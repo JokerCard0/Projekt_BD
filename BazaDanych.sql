@@ -34,7 +34,7 @@ CREATE TABLE Sprzet (
 	koszt_wypozyczenia INT NOT NULL,
 	);
 
-CREATE TABLE wypozyczenia(
+CREATE TABLE Wypozyczenia(
 	id INT IDENTITY(1,1) PRIMARY KEY,
 	id_klienta INT NOT NULL,
 	id_sprzetu INT NOT NULL,
@@ -43,3 +43,8 @@ CREATE TABLE wypozyczenia(
 	FOREIGN KEY (id_klienta) REFERENCES Klient(id),
 	FOREIGN KEY (id_sprzetu) REFERENCES Sprzet(id)
 	);
+CREATE TABLE Urzytkownicy(
+	id INT IDENTITY(1,1) PRIMARY KEY,
+	nazwa VARCHAR(35) NOT NULL,
+	haslo VARCHAR(512) NOT NULL
+	)
