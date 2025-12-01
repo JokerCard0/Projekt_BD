@@ -1,4 +1,9 @@
+using Microsoft.AspNetCore.Hosting.StaticWebAssets;
+using Microsoft.AspNetCore.StaticWebAssets;
+
 var builder = WebApplication.CreateBuilder(args);
+
+StaticWebAssetsLoader.UseStaticWebAssets(builder.Environment,builder.Configuration);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -14,16 +19,14 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles();
+
 app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapStaticAssets();
-
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
-    .WithStaticAssets();
-
+    pattern: "{controller=Sprzet}/{action=Index}/{id?}");
 
 app.Run();

@@ -1,11 +1,18 @@
 using System.Diagnostics;
+using backend.Models;
 using Microsoft.AspNetCore.Mvc;
-using Projekt_BD.Models;
 
-namespace Projekt_BD.Controllers
+namespace backend.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly ILogger<HomeController> _logger;
+
+        public HomeController(ILogger<HomeController> logger)
+        {
+            _logger = logger;
+        }
+
         public IActionResult Index()
         {
             return View();
@@ -15,6 +22,14 @@ namespace Projekt_BD.Controllers
         {
             return View();
         }
+
+        public IActionResult Sprzet()
+        {
+            return View();
+        }
+
+
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

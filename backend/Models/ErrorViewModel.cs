@@ -1,4 +1,4 @@
-namespace Projekt_BD.Models
+namespace backend.Models
 {
     public class ErrorViewModel
     {

@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 
 namespace backend.Models {
 
-    public class Klient {
-        public int id { get; set}
-        public string kod_pocztowy { get; set}
-        public string ulica { get; set}
-        public string numer_budynku { get; set}
-        public string numer_mieszkania { get; set}
+    public class Adresy {
+        public int id { get; set; }
+        public String kod_pocztowy { get; set; }
+        public String ulica { get; set; }
+        public String numer_budynku { get; set; }
+        public String numer_mieszkania { get; set; }
     }
 }
