@@ -34,14 +34,14 @@ namespace Projekt_BD.Migrations
                         .HasColumnType("date");
 
                     b.Property<int>("Koszt_wypozyczenia")
-                        .HasColumnType("intiger");
+                        .HasColumnType("int");
 
                     b.Property<string>("Marka")
                         .IsRequired()
                         .HasColumnType("nvarchar(30)");
 
                     b.Property<int>("Rozmiar")
-                        .HasColumnType("intiger");
+                        .HasColumnType("int");
 
                     b.Property<string>("Typ")
                         .IsRequired()
@@ -49,7 +49,7 @@ namespace Projekt_BD.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Sprzet_");
+                    b.ToTable("Sprzety");
                 });
 #pragma warning restore 612, 618
         }

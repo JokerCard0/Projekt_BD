@@ -21,7 +21,7 @@ namespace backend.Models
 		public int Rozmiar { get; set; }
 		[Column(TypeName="date")]
 		public DateTime Data_zakupu { get; set; }
-		[Column(TypeName ="intintiger")]
+		[Column(TypeName ="int")]
 		public int Koszt_wypozyczenia { get; set; }
 	}
 }

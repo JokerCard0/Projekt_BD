@@ -6,6 +6,6 @@ namespace backend.Models
     {
         public SprzetDbContext(DbContextOptions<SprzetDbContext> options) :base (options){}
 
-        public DbSet<Sprzet> Sprzet_ {  get; set; }
+        public DbSet<Sprzet> Sprzety {  get; set; }
     }
 }

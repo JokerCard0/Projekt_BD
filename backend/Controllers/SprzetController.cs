@@ -17,7 +17,7 @@ namespace backend.Controllers
         // GET: HomeController1
         public ActionResult Index()
         {
-            return View(_context.Sprzet_.ToList());
+            return View(_context.Sprzety.ToList());
         }
 
         // GET: HomeController1/Details/5
@@ -27,9 +27,20 @@ namespace backend.Controllers
         }
 
         // GET: HomeController1/Create
-        public ActionResult Create()
+        public ActionResult Create(Sprzet sprzet)
         {
-            return View();
+            try
+            {
+                _context.Sprzety.Add(sprzet);
+                _context.SaveChanges();
+                return RedirectToAction(nameof(Index));
+
+            }
+            catch
+            {
+                return View();
+            }
+            
         }
 
         // POST: HomeController1/Create
