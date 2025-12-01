@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\Projekt_BD.csproj": {}
+    "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Projekt_BD.csproj": {}
   },
   "projects": {
-    "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\Projekt_BD.csproj": {
+    "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Projekt_BD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\Projekt_BD.csproj",
+        "projectUniqueName": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Projekt_BD.csproj",
         "projectName": "Projekt_BD",
-        "projectPath": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\Projekt_BD.csproj",
+        "projectPath": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Projekt_BD.csproj",
         "packagesPath": "C:\\Users\\Beata\\.nuget\\packages\\",
-        "outputPath": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\obj\\",
+        "outputPath": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
