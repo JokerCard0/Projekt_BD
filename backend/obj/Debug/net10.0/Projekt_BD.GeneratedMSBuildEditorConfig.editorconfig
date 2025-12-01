@@ -30,12 +30,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Studia/SEMESTR_V/Bazy_Danych/Projekt/Projekt_BD/backend/Views/Home/Sprzet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTcHJ6ZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Studia/SEMESTR_V/Bazy_Danych/Projekt/Projekt_BD/backend/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Studia/SEMESTR_V/Bazy_Danych/Projekt/Projekt_BD/backend/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Studia/SEMESTR_V/Bazy_Danych/Projekt/Projekt_BD/backend/Views/Sprzet/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ByemV0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Studia/SEMESTR_V/Bazy_Danych/Projekt/Projekt_BD/backend/Views/Sprzet/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ByemV0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Studia/SEMESTR_V/Bazy_Danych/Projekt/Projekt_BD/backend/Views/_ViewImports.cshtml]
