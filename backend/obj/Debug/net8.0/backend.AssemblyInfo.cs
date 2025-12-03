@@ -14,15 +14,9 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD:backend/obj/Debug/net10.0/Projekt_BD.AssemblyInfo.cs
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cf298ee194c91071f305f5819d7d495d28a57bc")]
-[assembly: System.Reflection.AssemblyProductAttribute("Projekt_BD")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Projekt_BD")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c3a554f9bbdf3f7616ba6f5267c8f388785a56a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dfeaf1b42bd1b5412201f20a7dbd4a1aa9ba77eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("backend")]
->>>>>>> edc0df205f4de716c7334d365f6aa684124e7743:backend/obj/Debug/net8.0/backend.AssemblyInfo.cs
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Wygenerowane przez klasę WriteCodeFragment programu MSBuild.

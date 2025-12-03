@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\szabl\\OneDrive\\Pulpit\\BD\\Projekt_BD\\backend\\backend.csproj": {}
+    "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\szabl\\OneDrive\\Pulpit\\BD\\Projekt_BD\\backend\\backend.csproj": {
+    "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\szabl\\OneDrive\\Pulpit\\BD\\Projekt_BD\\backend\\backend.csproj",
+        "projectUniqueName": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "C:\\Users\\szabl\\OneDrive\\Pulpit\\BD\\Projekt_BD\\backend\\backend.csproj",
-        "packagesPath": "C:\\Users\\szabl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\szabl\\OneDrive\\Pulpit\\BD\\Projekt_BD\\backend\\obj\\",
+        "projectPath": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\backend.csproj",
+        "packagesPath": "C:\\Users\\Beata\\.nuget\\packages\\",
+        "outputPath": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\szabl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Beata\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

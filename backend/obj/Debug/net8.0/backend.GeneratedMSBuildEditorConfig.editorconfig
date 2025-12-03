@@ -19,53 +19,53 @@ build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v8.0
 build_property.RootNamespace = backend
 build_property.RootNamespace = backend
-build_property.ProjectDir = C:\Users\szabl\OneDrive\Pulpit\BD\Projekt_BD\backend\
+build_property.ProjectDir = E:\Studia\SEMESTR_V\Bazy_Danych\Projekt\Projekt_BD\backend\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\szabl\OneDrive\Pulpit\BD\Projekt_BD\backend
+build_property.MSBuildProjectDirectory = E:\Studia\SEMESTR_V\Bazy_Danych\Projekt\Projekt_BD\backend
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/szabl/OneDrive/Pulpit/BD/Projekt_BD/backend/Views/Home/Index.cshtml]
+[E:/Studia/SEMESTR_V/Bazy_Danych/Projekt/Projekt_BD/backend/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szabl/OneDrive/Pulpit/BD/Projekt_BD/backend/Views/Home/Privacy.cshtml]
+[E:/Studia/SEMESTR_V/Bazy_Danych/Projekt/Projekt_BD/backend/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szabl/OneDrive/Pulpit/BD/Projekt_BD/backend/Views/Home/Sprzet.cshtml]
+[E:/Studia/SEMESTR_V/Bazy_Danych/Projekt/Projekt_BD/backend/Views/Home/Sprzet.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTcHJ6ZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szabl/OneDrive/Pulpit/BD/Projekt_BD/backend/Views/Shared/Error.cshtml]
+[E:/Studia/SEMESTR_V/Bazy_Danych/Projekt/Projekt_BD/backend/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szabl/OneDrive/Pulpit/BD/Projekt_BD/backend/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/Studia/SEMESTR_V/Bazy_Danych/Projekt/Projekt_BD/backend/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szabl/OneDrive/Pulpit/BD/Projekt_BD/backend/Views/Sprzet/Create.cshtml]
+[E:/Studia/SEMESTR_V/Bazy_Danych/Projekt/Projekt_BD/backend/Views/Sprzet/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ByemV0XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szabl/OneDrive/Pulpit/BD/Projekt_BD/backend/Views/Sprzet/Index.cshtml]
+[E:/Studia/SEMESTR_V/Bazy_Danych/Projekt/Projekt_BD/backend/Views/Sprzet/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ByemV0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szabl/OneDrive/Pulpit/BD/Projekt_BD/backend/Views/_ViewImports.cshtml]
+[E:/Studia/SEMESTR_V/Bazy_Danych/Projekt/Projekt_BD/backend/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szabl/OneDrive/Pulpit/BD/Projekt_BD/backend/Views/_ViewStart.cshtml]
+[E:/Studia/SEMESTR_V/Bazy_Danych/Projekt/Projekt_BD/backend/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szabl/OneDrive/Pulpit/BD/Projekt_BD/backend/Views/Shared/_Layout.cshtml]
+[E:/Studia/SEMESTR_V/Bazy_Danych/Projekt/Projekt_BD/backend/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-guihv28zom
