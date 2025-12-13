@@ -66,8 +66,7 @@
               "RelativeToolTip": "backend\\Models\\SprzetDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T17:01:21.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T17:01:21.515Z"
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "RelativeToolTip": "backend\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T16:57:12.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T16:57:12.265Z"
             },
             {
               "$type": "Document",
@@ -92,8 +90,7 @@
               "RelativeToolTip": "backend\\Views\\Sprzet\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-01T16:55:11.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T16:55:11.755Z"
             },
             {
               "$type": "Document",
@@ -105,8 +102,7 @@
               "RelativeToolTip": "backend\\Models\\Sprzet.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T16:34:20.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T16:34:20.2Z"
             },
             {
               "$type": "Document",
@@ -118,8 +114,7 @@
               "RelativeToolTip": "backend\\Controllers\\SprzetController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T16:27:24.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T16:27:24.85Z"
             },
             {
               "$type": "Document",
@@ -139,9 +134,9 @@
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "backend\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "backend\\Views\\Shared\\_Layout.cshtml*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAABvAAAAAAAAAA==",
+              "ToolTip": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "backend\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-01T16:22:34.487Z",
               "EditorCaption": ""

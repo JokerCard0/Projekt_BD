@@ -40,7 +40,7 @@ namespace backend.Models
 
 		[Column(TypeName = "nvarchar(30)")]
 		[Required(ErrorMessage = "Wybierz marke z listy"),EnumDataType(typeof(Marki),ErrorMessage = "Nie wybrano marki z listy")]
-		public String Marka { get; set; }
+		public Marki? Marka { get; set; }
 
 
 		[Column(TypeName = "int")]
