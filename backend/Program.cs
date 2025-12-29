@@ -10,7 +10,7 @@ StaticWebAssetsLoader.UseStaticWebAssets(builder.Environment,builder.Configurati
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<SprzetDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
+builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
 
 
 var app = builder.Build();

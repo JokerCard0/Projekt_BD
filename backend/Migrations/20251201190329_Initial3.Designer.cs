@@ -11,7 +11,7 @@ using backend.Models;
 
 namespace Projekt_BD.Migrations
 {
-    [DbContext(typeof(SprzetDbContext))]
+    [DbContext(typeof(backend.Models.AppDbContext))]
     [Migration("20251201190329_Initial3")]
     partial class Initial3
     {

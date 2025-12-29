@@ -2,13 +2,33 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace backend.Models {
 
     public class Klient {
-        public int id { get; set; }
-        public String imie { get; set; }
-        public String nazwisko { get; set; }
-        public int id_adresu { get; set; }
+
+        [Key]
+        public int Id { get; set; }
+
+        [Column(TypeName = "nvarchar(20)")]
+        [Required(ErrorMessage = "Podaj Imie")]
+        public String? Imie { get; set; }
+
+        [Column(TypeName = "nvarchar(30)")]
+        [Required(ErrorMessage = "Podaj Nazwisko")]
+        public String? Nazwisko { get; set; }
+
+        [Column(TypeName = "nvarchar(11)")]
+        [Required(ErrorMessage = "Podaj pesel"),RegularExpression(@"^\d{11}$",ErrorMessage = "Podaj prawid³owy pesel")]
+        public String? Pesel {  get; set; }
+
+        [Column(TypeName = "int")]
+        [Required(ErrorMessage = "B³¹d dodawania relacji z Adres.cs")]
+        public int AdresId { get; set; }
+        public Adres? Adres { get; set; }
+
+        public ICollection<Wypozyczenie>? Wypozyczenie { get; set; }
     }
 }

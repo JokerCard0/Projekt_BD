@@ -53,7 +53,9 @@ namespace backend.Models
 		public DateOnly Data_zakupu { get; set; }
 
 		[Column(TypeName ="int")]
-		[Required(ErrorMessage = "Podaj koszt wypo¿yczenia")]
+		[Required(ErrorMessage = "Podaj koszt wypo¿yczenia"),Range(1,int.MaxValue,ErrorMessage = "Podaj ca³kowit¹ wartoœæ liczbow¹")]
 		public int Koszt_wypozyczenia { get; set; }
+
+		public ICollection<Wypozyczenie>? Wypozyczenie { get; set; }
 	}
 }

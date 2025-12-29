@@ -7,8 +7,8 @@ namespace backend.Controllers
     public class SprzetController : Controller
     {
 
-        private readonly SprzetDbContext _context;
-        public SprzetController(SprzetDbContext context)
+        private readonly AppDbContext _context;
+        public SprzetController(AppDbContext context)
         {
             _context = context;
         }
