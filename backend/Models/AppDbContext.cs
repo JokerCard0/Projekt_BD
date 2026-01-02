@@ -11,5 +11,6 @@ namespace backend.Models
         public DbSet<Adres> Adresy { get; set; }
         public DbSet<Klient> Klienci { get; set; }
         public DbSet<Wypozyczenie> Wypozyczenia { get; set; }
+        public DbSet<Admin> Admini { get; set; }
     }
 }

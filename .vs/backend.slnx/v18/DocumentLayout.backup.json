@@ -3,28 +3,56 @@
   "WorkspaceRootPath": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Migrations\\20251229181738_Initial5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Migrations\\20251229181738_Initial5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|e:\\studia\\semestr_v\\bazy_danych\\projekt\\projekt_bd\\backend\\models\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\models\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|e:\\studia\\semestr_v\\bazy_danych\\projekt\\projekt_bd\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|e:\\studia\\semestr_v\\bazy_danych\\projekt\\projekt_bd\\backend\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|e:\\studia\\semestr_v\\bazy_danych\\projekt\\projekt_bd\\backend\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|e:\\studia\\semestr_v\\bazy_danych\\projekt\\projekt_bd\\backend\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|e:\\studia\\semestr_v\\bazy_danych\\projekt\\projekt_bd\\backend\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|e:\\studia\\semestr_v\\bazy_danych\\projekt\\projekt_bd\\backend\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|e:\\studia\\semestr_v\\bazy_danych\\projekt\\projekt_bd\\backend\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|e:\\studia\\semestr_v\\bazy_danych\\projekt\\projekt_bd\\backend\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|e:\\studia\\semestr_v\\bazy_danych\\projekt\\projekt_bd\\backend\\models\\klient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\models\\klient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|e:\\studia\\semestr_v\\bazy_danych\\projekt\\projekt_bd\\backend\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|e:\\studia\\semestr_v\\bazy_danych\\projekt\\projekt_bd\\backend\\models\\wypozyczenie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\models\\wypozyczenie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|e:\\studia\\semestr_v\\bazy_danych\\projekt\\projekt_bd\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|e:\\studia\\semestr_v\\bazy_danych\\projekt\\projekt_bd\\backend\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|e:\\studia\\semestr_v\\bazy_danych\\projekt\\projekt_bd\\backend\\models\\sprzet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\models\\sprzet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|e:\\studia\\semestr_v\\bazy_danych\\projekt\\projekt_bd\\backend\\models\\klient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\models\\klient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|e:\\studia\\semestr_v\\bazy_danych\\projekt\\projekt_bd\\backend\\models\\adres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,18 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|e:\\studia\\semestr_v\\bazy_danych\\projekt\\projekt_bd\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|e:\\studia\\semestr_v\\bazy_danych\\projekt\\projekt_bd\\backend\\models\\sprzet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\models\\sprzet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|e:\\studia\\semestr_v\\bazy_danych\\projekt\\projekt_bd\\backend\\views\\sprzet\\create_resault.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\views\\sprzet\\create_resault.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|e:\\studia\\semestr_v\\bazy_danych\\projekt\\projekt_bd\\backend\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|e:\\studia\\semestr_v\\bazy_danych\\projekt\\projekt_bd\\backend\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,84 +83,123 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20251229181738_Initial5.cs",
-              "DocumentMoniker": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Migrations\\20251229181738_Initial5.cs",
-              "RelativeDocumentMoniker": "backend\\Migrations\\20251229181738_Initial5.cs",
-              "ToolTip": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Migrations\\20251229181738_Initial5.cs",
-              "RelativeToolTip": "backend\\Migrations\\20251229181738_Initial5.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Models\\EmailSender.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\EmailSender.cs",
+              "ToolTip": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Models\\EmailSender.cs",
+              "RelativeToolTip": "backend\\Models\\EmailSender.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T18:17:38.5Z",
+              "WhenOpened": "2026-01-02T17:48:59.842Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "backend\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "backend\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAI0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T17:44:33.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "backend\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "backend\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAACGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-02T17:43:54.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "backend\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "backend\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T17:26:29.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "backend\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "backend\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-02T17:09:08.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Admin.cs",
               "DocumentMoniker": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Models\\Admin.cs",
               "RelativeDocumentMoniker": "backend\\Models\\Admin.cs",
               "ToolTip": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Models\\Admin.cs",
               "RelativeToolTip": "backend\\Models\\Admin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-29T17:28:02.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Program.cs",
               "RelativeDocumentMoniker": "backend\\Program.cs",
               "ToolTip": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Program.cs",
               "RelativeToolTip": "backend\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-29T17:16:16.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Models\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "backend\\Models\\AppDbContext.cs",
-              "ToolTip": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Models\\AppDbContext.cs",
-              "RelativeToolTip": "backend\\Models\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T17:11:42.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Wypozyczenie.cs",
               "DocumentMoniker": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Models\\Wypozyczenie.cs",
               "RelativeDocumentMoniker": "backend\\Models\\Wypozyczenie.cs",
               "ToolTip": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Models\\Wypozyczenie.cs",
               "RelativeToolTip": "backend\\Models\\Wypozyczenie.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA9wBIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-29T16:15:42.156Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "Klient.cs",
               "DocumentMoniker": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Models\\Klient.cs",
               "RelativeDocumentMoniker": "backend\\Models\\Klient.cs",
               "ToolTip": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Models\\Klient.cs",
               "RelativeToolTip": "backend\\Models\\Klient.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-29T15:41:43.089Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "Adres.cs",
               "DocumentMoniker": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Models\\Adres.cs",
               "RelativeDocumentMoniker": "backend\\Models\\Adres.cs",
@@ -152,25 +207,24 @@
               "RelativeToolTip": "backend\\Models\\Adres.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T14:53:24.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-29T14:53:24.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Sprzet.cs",
               "DocumentMoniker": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Models\\Sprzet.cs",
               "RelativeDocumentMoniker": "backend\\Models\\Sprzet.cs",
               "ToolTip": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Models\\Sprzet.cs",
               "RelativeToolTip": "backend\\Models\\Sprzet.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAIwDIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-01T16:34:20.2Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\appsettings.json",
               "RelativeDocumentMoniker": "backend\\appsettings.json",
@@ -178,25 +232,50 @@
               "RelativeToolTip": "backend\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-27T16:19:00.642Z",
+              "WhenOpened": "2025-12-27T16:19:00.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "backend\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-01T16:22:34.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "backend\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-02T17:10:00.353Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Create_resault.cshtml",
-              "DocumentMoniker": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Views\\Sprzet\\Create_resault.cshtml",
-              "RelativeDocumentMoniker": "backend\\Views\\Sprzet\\Create_resault.cshtml",
-              "ToolTip": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Views\\Sprzet\\Create_resault.cshtml",
-              "RelativeToolTip": "backend\\Views\\Sprzet\\Create_resault.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-27T16:16:22.842Z",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\AppDbContext.cs",
+              "ToolTip": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "backend\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T17:11:42.94Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "SprzetController.cs",
               "DocumentMoniker": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Controllers\\SprzetController.cs",
               "RelativeDocumentMoniker": "backend\\Controllers\\SprzetController.cs",
@@ -204,12 +283,11 @@
               "RelativeToolTip": "backend\\Controllers\\SprzetController.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAIwBcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T16:27:24.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T16:27:24.85Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "backend\\Controllers\\HomeController.cs",
@@ -217,21 +295,7 @@
               "RelativeToolTip": "backend\\Controllers\\HomeController.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAYwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T16:24:36.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "backend\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\Studia\\SEMESTR_V\\Bazy_Danych\\Projekt\\Projekt_BD\\backend\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "backend\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAIBJwCMAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-01T16:22:34.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T16:24:36.651Z"
             }
           ]
         }

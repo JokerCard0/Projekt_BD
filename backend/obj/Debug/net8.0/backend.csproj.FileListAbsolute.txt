@@ -596,3 +596,6 @@ E:\Studia\SEMESTR_V\Bazy_Danych\Projekt\Projekt_BD\backend\obj\Debug\net8.0\back
 E:\Studia\SEMESTR_V\Bazy_Danych\Projekt\Projekt_BD\backend\obj\Debug\net8.0\backend.genruntimeconfig.cache
 E:\Studia\SEMESTR_V\Bazy_Danych\Projekt\Projekt_BD\backend\obj\Debug\net8.0\ref\backend.dll
 E:\Studia\SEMESTR_V\Bazy_Danych\Projekt\Projekt_BD\backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Studia\SEMESTR_V\Bazy_Danych\Projekt\Projekt_BD\backend\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+E:\Studia\SEMESTR_V\Bazy_Danych\Projekt\Projekt_BD\backend\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\Studia\SEMESTR_V\Bazy_Danych\Projekt\Projekt_BD\backend\obj\Debug\net8.0\backend.MvcApplicationPartsAssemblyInfo.cs
