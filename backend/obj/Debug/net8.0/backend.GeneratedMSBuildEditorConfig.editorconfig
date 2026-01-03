@@ -102,8 +102,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ByemV0XENyZWF0ZV9yZXNhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Studia/SEMESTR_V/Bazy_Danych/Projekt/Projekt_BD/backend/Views/Sprzet/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ByemV0XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Studia/SEMESTR_V/Bazy_Danych/Projekt/Projekt_BD/backend/Views/Sprzet/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ByemV0XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Studia/SEMESTR_V/Bazy_Danych/Projekt/Projekt_BD/backend/Views/Sprzet/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ByemV0XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Studia/SEMESTR_V/Bazy_Danych/Projekt/Projekt_BD/backend/Views/Sprzet/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ByemV0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Studia/SEMESTR_V/Bazy_Danych/Projekt/Projekt_BD/backend/Views/Sprzet/Wypozycz.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ByemV0XFd5cG96eWN6LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Studia/SEMESTR_V/Bazy_Danych/Projekt/Projekt_BD/backend/Views/Wypozyczenie/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV3lwb3p5Y3plbmllXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Studia/SEMESTR_V/Bazy_Danych/Projekt/Projekt_BD/backend/Views/_ViewImports.cshtml]

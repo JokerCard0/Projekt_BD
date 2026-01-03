@@ -1,0 +1,56 @@
+﻿@model IEnumerable<backend.Models.Wypozyczenie>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Wypożyczenie</h1>
+
+<p>
+    @if (User.Identity.IsAuthenticated)
+    {
+        <a asp-action="Create">Create New</a>
+    }
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Klient)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sprzet)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Data_wypoz)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Okres_wypoz)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.KlientId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SprzetId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Data_wypoz)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Okres_wypoz)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

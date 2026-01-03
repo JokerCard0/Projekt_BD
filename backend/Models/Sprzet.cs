@@ -48,13 +48,20 @@ namespace backend.Models
 		public int Rozmiar { get; set; }
 
 
-		[Column(TypeName="date")]
+		[Column(TypeName="date"),Display(Name = "Data zakupu")]
 		[Required(ErrorMessage = "podaj date"),DataType(DataType.Date,ErrorMessage = "Wybierz wartoœæ która jest dat¹")]
 		public DateOnly Data_zakupu { get; set; }
 
-		[Column(TypeName ="int")]
+
+		[Column(TypeName ="int"),Display(Name = "Koszt wypo¿yczenia")]
 		[Required(ErrorMessage = "Podaj koszt wypo¿yczenia"),Range(1,int.MaxValue,ErrorMessage = "Podaj ca³kowit¹ wartoœæ liczbow¹")]
 		public int Koszt_wypozyczenia { get; set; }
+
+
+		[Column(TypeName = "int")]
+		[Required]
+		public int Wypozyczony { get; set; } = 0;
+
 
 		public ICollection<Wypozyczenie>? Wypozyczenie { get; set; }
 	}
