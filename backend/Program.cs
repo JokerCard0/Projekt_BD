@@ -24,6 +24,9 @@ builder.Services.AddSingleton<IEmailSender, EmailSender>();
 
 builder.Services.Configure<IdentityOptions>(options => { options.SignIn.RequireConfirmedAccount = false; });
 
+builder.Services.ConfigureApplicationCookie(options => { options.LoginPath = "/Identity/Account/Login"; });
+
+
 //builder.Services.AddDefaultIdentity<Admin>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<backendContext>();
 
 
