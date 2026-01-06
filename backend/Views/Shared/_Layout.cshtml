@@ -28,6 +28,18 @@
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Wypozyczenie" asp-action="Index">Wypożyczenia</a>
                             </li>
                         }
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Opinia" asp-action="Index">Opinie</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Opinia" asp-action="Create">Oceń nas!</a>
+                            </li>
+                        }
                     </ul>
                 </div>
                 <partial name="_LoginPartial" />
