@@ -32,5 +32,9 @@ namespace backend.Models {
         [Column(TypeName = "int"),Display(Name = "Okres wypo¿yczenia")]
         [Required(),Range(1,14,ErrorMessage = "W wypadku wynajmu na d³u¿szy okres ni¿ dwa tygodnie prosimy o kontakt telefoniczny.")]
         public int Okres_wypoz { get; set; }
-	}
+
+        [Column(TypeName = "int")]
+        [Required]
+        public int Aktywne { get; set; } = 1;
+    }
 }

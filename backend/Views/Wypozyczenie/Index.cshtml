@@ -7,10 +7,7 @@
 <h1>Wypożyczenie</h1>
 
 <p>
-    @if (User.Identity.IsAuthenticated)
-    {
-        <a asp-action="Create">Create New</a>
-    }
+    @*<a asp-action="Create">Create New</a>*@
 </p>
 <table class="table">
     <thead>
@@ -27,6 +24,10 @@
             <th>
                 @Html.DisplayNameFor(model => model.Okres_wypoz)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Aktywne)
+            </th>
+            <th></th>
             <th></th>
         </tr>
     </thead>
@@ -46,9 +47,32 @@
                 @Html.DisplayFor(modelItem => item.Okres_wypoz)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    @if (item.Aktywne == 1)
+                    {
+                        <p>TAK</p>
+                    }
+                    else
+                    {
+                        <p>NIE</p>
+                    }
+            </td>
+            <td>
+                @if (item.Aktywne == 1)
+                {
+                    <form asp-action="Zwrot" asp-route-id="@item.Id" method="post">
+                        <button type="submit" class="btn btn-link">Zwrot</button>
+                    </form>
+                }
+                    else
+                    {
+                        <p></p>
+                    }
+                    
+            </td>
+            <td>
+                    @*<a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |*@
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+                    @*<a asp-action="Delete" asp-route-id="@item.Id">Delete</a>*@
             </td>
         </tr>
 }

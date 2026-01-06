@@ -1,4 +1,5 @@
 ﻿using backend.Models;
+using backend.Models.ViewModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,6 +13,41 @@ namespace backend.Controllers
             _context = context;
         }
 
+        private WypozyczViewModel WyswietlViewModelWypozycz(Wypozyczenie wypozyczenie)
+        {
+            var klient = _context.Klienci.Find(wypozyczenie.KlientId);
+            var adres = _context.Adresy.Find(klient.AdresId);
+            var sprzet = _context.Sprzety.Find(wypozyczenie.SprzetId);
+
+            var wypozycz = new WypozyczViewModel
+            {
+
+                Typ = sprzet.Typ,
+                Marka = sprzet.Marka,
+                Rozmiar = sprzet.Rozmiar,
+                Data_zakupu = sprzet.Data_zakupu,
+                Koszt_wypozyczenia = sprzet.Koszt_wypozyczenia,
+                Wypozyczony = sprzet.Wypozyczony,
+
+                Imie = klient.Imie,
+                Nazwisko = klient.Nazwisko,
+                Pesel = klient.Pesel,
+                AdresId = klient.AdresId,
+
+                Kod_pocztowy = adres.Kod_pocztowy,
+                Miasto = adres.Miasto,
+                Ulica = adres.Ulica,
+                Numer_budynku = adres.Numer_budynku,
+                Numer_mieszkania = adres.Numer_mieszkania,
+
+                Data_wypoz = wypozyczenie.Data_wypoz,
+                Okres_wypoz = wypozyczenie.Okres_wypoz,
+                Aktywne = wypozyczenie.Aktywne
+                
+            };
+            return wypozycz;
+        }
+
         // GET: WypozyczenieController
         public ActionResult Index()
         {
@@ -21,7 +57,8 @@ namespace backend.Controllers
         // GET: WypozyczenieController/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+            var wypozycz = WyswietlViewModelWypozycz(_context.Wypozyczenia.Find(id));
+            return View(wypozycz);
         }
 
         // GET: WypozyczenieController/Create
@@ -85,6 +122,34 @@ namespace backend.Controllers
             {
                 return View();
             }
+        }
+
+
+        // POST: HomeController1/Wypozycz/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Zwrot(int id)
+        {
+            var wypozyczenie = _context.Wypozyczenia.Find(id);
+            if (wypozyczenie == null)
+                return NotFound();
+
+            var sprzet = _context.Sprzety.Find(wypozyczenie.SprzetId);
+            //var klient = _context.Klienci.Find(wypozyczenie.KlientId);
+            //var adres = _context.Adresy.Find(klient.AdresId);
+            if(sprzet == null) // || klient == null || adres == null)
+                return NotFound();
+
+            sprzet.Wypozyczony = 0;
+            wypozyczenie.Aktywne = 0;
+            //_context.Adresy.Remove(adres);
+            //_context.Klienci.Remove(klient);
+            _context.SaveChanges();
+           
+
+
+            return RedirectToAction(nameof(Index));
+
         }
     }
 }

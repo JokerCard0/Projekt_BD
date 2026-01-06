@@ -6,47 +6,21 @@
 
 <h1>Edit</h1>
 
-<h4>Sprzet</h4>
+<h4>Sprzet @Html.DisplayFor(model => model.Id)</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
-            <div class="form-group">
-                <label asp-for="Typ" class="control-label"></label>
-                <input asp-for="Typ" class="form-control" />
-                <span asp-validation-for="Typ" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Marka" class="control-label"></label>
-                <input asp-for="Marka" class="form-control" />
-                <span asp-validation-for="Marka" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Rozmiar" class="control-label"></label>
-                <input asp-for="Rozmiar" class="form-control" />
-                <span asp-validation-for="Rozmiar" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Data_zakupu" class="control-label"></label>
-                <input asp-for="Data_zakupu" class="form-control" />
-                <span asp-validation-for="Data_zakupu" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Koszt_wypozyczenia" class="control-label"></label>
-                <input asp-for="Koszt_wypozyczenia" class="form-control" />
-                <span asp-validation-for="Koszt_wypozyczenia" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Wypozyczony" class="control-label"></label>
-                <input asp-for="Wypozyczony" class="form-control" />
-                <span asp-validation-for="Wypozyczony" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
+        @using (Html.BeginForm("Edit", "Sprzet", FormMethod.Post))
+        {
+            @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+            <p>Typ sprzętu: @Html.DropDownListFor(a => a.Typ, new SelectList(Enum.GetValues(typeof(Rodzaje))), new { @class = "form-control" })</p>
+            <p>Marka sprzętu: @Html.DropDownListFor(a => a.Marka, new SelectList(Enum.GetValues(typeof(Marki))), new { @class = "form-control" }) </p>
+            <p>Rozmiar sprzętu: @Html.TextBoxFor(a => a.Rozmiar, new { type = "number" }) </p>
+            <p>Data zakupu: @Html.TextBoxFor(a => a.Data_zakupu, "{0:yyyy-MM-dd}",new { type = "date" }) </p>
+            <p>Cena wypożyczenia: @Html.TextBoxFor(a => a.Koszt_wypozyczenia, new { type = "number" }) </p>
+            <input type="submit" value="Edytuj Sprzęt" class="btn btn-secondary" />
+            <input type="reset" value="Wyczyść Formularz" class="btn btn-secondary" />
+        }
     </div>
 </div>
 

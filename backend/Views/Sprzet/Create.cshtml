@@ -8,18 +8,19 @@
 
 <h4>Sprzet</h4>
 <hr />
-@using (Html.BeginForm("Create","Sprzet",FormMethod.Post))
-{
-    @Html.ValidationSummary(false,"",new {@class = "text-danger"})
-    <p>Typ sprzętu: @Html.DropDownListFor(a => a.Typ, new SelectList(Enum.GetValues(typeof(Rodzaje))),new {@class ="form-control"})</p>
-    <p>Marka sprzętu: @Html.DropDownListFor(a => a.Marka, new SelectList(Enum.GetValues(typeof(Marki))), new { @class = "form-control" }) </p>
-    <p>Rozmiar sprzętu: @Html.TextBoxFor(a => a.Rozmiar, new {type="number"}) </p>
-    <p>Data zakupu: @Html.TextBoxFor(a => a.Data_zakupu, new{type="date"}) </p>
-    <p>Cena wypożyczenia: @Html.TextBoxFor(a => a.Koszt_wypozyczenia, new {type="number"}) </p>
-    <input type="submit" value="Dodaj nowy sprzęt" class="btn btn-secondary" />
-    <input type="reset" value="Wyczyść Formularz" class="btn btn-secondary" />
-}
-
+<div>
+    @using (Html.BeginForm("Create","Sprzet",FormMethod.Post))
+    {
+        @Html.ValidationSummary(false,"",new {@class = "text-danger"})
+        <p>Typ sprzętu: @Html.DropDownListFor(a => a.Typ, new SelectList(Enum.GetValues(typeof(Rodzaje))),new {@class ="form-control"})</p>
+        <p>Marka sprzętu: @Html.DropDownListFor(a => a.Marka, new SelectList(Enum.GetValues(typeof(Marki))), new { @class = "form-control" }) </p>
+        <p>Rozmiar sprzętu: @Html.TextBoxFor(a => a.Rozmiar, new {type="number"}) </p>
+        <p>Data zakupu: @Html.TextBoxFor(a => a.Data_zakupu, new{type="date"}) </p>
+        <p>Cena wypożyczenia: @Html.TextBoxFor(a => a.Koszt_wypozyczenia, new {type="number"}) </p>
+        <input type="submit" value="Dodaj nowy sprzęt" class="btn btn-secondary" />
+        <input type="reset" value="Wyczyść Formularz" class="btn btn-secondary" />
+    }
+</div>
 <div>
     <a asp-action="Index">Powrót do listy</a>
 </div>

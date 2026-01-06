@@ -93,7 +93,15 @@
                 }
             </td>
             <td>
-                @Html.ActionLink("Wypozycz", "Wypozycz", new { id=item.Id })
+                @if (item.Wypozyczony == 0)
+                {
+                    @Html.ActionLink("Wypozycz", "Wypozycz", new { id=item.Id })
+                }
+                else
+                {
+                    <p></p>
+                }
+
             </td>
             <td>
                 @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |

@@ -143,21 +143,21 @@ namespace backend.Controllers
         // POST: HomeController1/Wypozycz/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Wypozycz(WypozyczViewModel model)
+        public ActionResult Wypozycz(WypozyczViewModel wypozycz)
         {
             try
             {
                 if (!ModelState.IsValid)
-                    return View(model);
+                    return View(wypozycz);
                 
                 
                 var adres = new Adres
                 {
-                    Kod_pocztowy = model.Kod_pocztowy,
-                    Miasto = model.Miasto,
-                    Ulica = model.Ulica,
-                    Numer_budynku = model.Numer_budynku,
-                    Numer_mieszkania = model.Numer_mieszkania
+                    Kod_pocztowy = wypozycz.Kod_pocztowy,
+                    Miasto = wypozycz.Miasto,
+                    Ulica = wypozycz.Ulica,
+                    Numer_budynku = wypozycz.Numer_budynku,
+                    Numer_mieszkania = wypozycz.Numer_mieszkania
                 };
                 _context.Adresy.Add(adres);
                 _context.SaveChanges();
@@ -165,9 +165,9 @@ namespace backend.Controllers
 
                 var klient = new Klient
                 {
-                    Imie = model.Imie,
-                    Nazwisko = model.Nazwisko,
-                    Pesel = model.Pesel,
+                    Imie = wypozycz.Imie,
+                    Nazwisko = wypozycz.Nazwisko,
+                    Pesel = wypozycz.Pesel,
                     AdresId = adres.Id,
                 };
                 _context.Klienci.Add(klient);
@@ -177,15 +177,15 @@ namespace backend.Controllers
                 var wypozyczenie = new Wypozyczenie
                 {
                     KlientId = klient.Id,
-                    SprzetId = model.SprzetId,
-                    Data_wypoz = model.Data_wypoz,
-                    Okres_wypoz = model.Okres_wypoz
+                    SprzetId = wypozycz.SprzetId,
+                    Data_wypoz = wypozycz.Data_wypoz,
+                    Okres_wypoz = wypozycz.Okres_wypoz
                 };
                 _context.Wypozyczenia.Add(wypozyczenie);
                 _context.SaveChanges();
 
 
-                var sprzet = _context.Sprzety.Find(model.SprzetId);
+                var sprzet = _context.Sprzety.Find(wypozycz.SprzetId);
                 sprzet.Wypozyczony = 1;
                 _context.SaveChanges();
 

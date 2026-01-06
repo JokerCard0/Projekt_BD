@@ -1,11 +1,21 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using backend.Models;
 
 namespace backend.Models.ViewModels
 {
     public class WypozyczViewModel
     {
+
+        //SPRZET
         public int SprzetId { get; set; }
+        public Rodzaje? Typ { get; set; }
+        public Marki? Marka { get; set; }
+        public int? Rozmiar { get; set; }
+
+        public DateOnly? Data_zakupu { get; set; }
+        public int? Koszt_wypozyczenia { get; set; }
+        public int? Wypozyczony { get; set; } = 0;
 
 
         //KLIENT
@@ -60,5 +70,7 @@ namespace backend.Models.ViewModels
         [Column(TypeName = "int")]
         [Required(), Range(1, 14, ErrorMessage = "W wypadku wynajmu na dłuższy okres niż dwa tygodnie prosimy o kontakt telefoniczny.")]
         public int Okres_wypoz { get; set; }
+
+        public int Aktywne { get; set; }
     }
 }
