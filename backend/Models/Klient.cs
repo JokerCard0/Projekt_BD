@@ -13,11 +13,11 @@ namespace backend.Models {
         public int Id { get; set; }
 
         [Column(TypeName = "nvarchar(20)")]
-        [Required(ErrorMessage = "Podaj Imie")]
+        [Required(ErrorMessage = "Podaj Imie"), MaxLength(20, ErrorMessage = "Za d³ugie nazwisko")]
         public String? Imie { get; set; }
 
         [Column(TypeName = "nvarchar(30)")]
-        [Required(ErrorMessage = "Podaj Nazwisko")]
+        [Required(ErrorMessage = "Podaj Nazwisko"), MaxLength(30, ErrorMessage = "Za d³ugie nazwisko")]
         public String? Nazwisko { get; set; }
 
         [Column(TypeName = "nvarchar(11)")]

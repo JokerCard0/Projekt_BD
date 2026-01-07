@@ -26,7 +26,7 @@
     <p>Ulica: @Html.TextBoxFor(a => a.Ulica, new { Type = "string" })</p>
     <p>Numer budynku: @Html.TextBoxFor(a => a.Numer_budynku, new { Type = "string" })</p>
     <p>Numer mieszkania: @Html.TextBoxFor(a => a.Numer_mieszkania, new { Type = "string" })</p>
-    <p>Data wypożyczenia: @Html.TextBoxFor(a => a.Data_wypoz, new { type = "date" , min = DateTime.Now.ToString("yyyy-MM-dd")}) </p>
+    <p>Data wypożyczenia: @Html.TextBoxFor(a => a.Data_wypoz, new { type = "date" , min = DateTime.Now.ToString("yyyy-MM-dd"),max = DateTime.Now.AddDays(7).ToString("yyyy-MM-dd")}) </p>
     <p>Okres wypożyczenia: @Html.TextBoxFor(a => a.Okres_wypoz, new { type = "number" }) </p>
     <input type="submit" value="Wypożycz" class="btn btn-secondary" />
     <input type="reset" value="Wyczyść Formularz" class="btn btn-secondary" />

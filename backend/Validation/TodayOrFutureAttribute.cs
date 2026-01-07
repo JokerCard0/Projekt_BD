@@ -12,7 +12,7 @@ namespace backend.Validation
 
             DateTime date = (DateTime)value;
 
-            return date >= DateTime.Today;
+            return date >= DateTime.Today && date < DateTime.Today.AddDays(6);
         }
 
         public override string FormatErrorMessage(string name)

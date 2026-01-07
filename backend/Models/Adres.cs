@@ -20,21 +20,22 @@ namespace backend.Models {
 
 
         [Column(TypeName = "nvarchar(40)")]
-        [Required(ErrorMessage = "Podaj miasto")]
+        [Required(ErrorMessage = "Podaj miasto"),MaxLength(40,ErrorMessage = "Za d³uga nazwa miasta")]
         public String? Miasto { get; set; }
 
 
         [Column(TypeName = "nvarchar(50)")]
-        [Required(ErrorMessage = "Podaj ulice"),MinLength(3,ErrorMessage = "Nazwa ulicy musi siê sk³adaæ z conajmniej trzech znaków")]
+        [Required(ErrorMessage = "Podaj ulice"),MinLength(3,ErrorMessage = "Nazwa ulicy musi siê sk³adaæ z conajmniej trzech znaków"), MaxLength(50, ErrorMessage = "Za d³uga nazwa ulicy")]
         public String? Ulica { get; set; }
 
 
         [Column(TypeName = "nvarchar(5)")]
-        [Required(ErrorMessage = "Podaj numer budynku")]
+        [Required(ErrorMessage = "Podaj numer budynku"), MaxLength(5, ErrorMessage = "Za d³ugi numer budynku")]
         public String? Numer_budynku { get; set; }
 
 
         [Column(TypeName = "varchar(5)")]
+        [MaxLength(5, ErrorMessage = "Za d³ugi numer mieszkania")]
         public String? Numer_mieszkania { get; set; }
 
         public ICollection<Klient>? Klienci { get; set; }

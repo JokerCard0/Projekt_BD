@@ -20,8 +20,10 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
 
+
 namespace backend.Areas.Identity.Pages.Account
 {
+    //[Authorize]
     public class RegisterModel : PageModel
     {
         private readonly SignInManager<Admin> _signInManager;

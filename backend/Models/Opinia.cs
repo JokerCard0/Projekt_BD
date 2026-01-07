@@ -24,6 +24,7 @@ namespace backend.Models
         public int OcenaZwrotu { get; set; }
 
         [Column(TypeName = "nvarchar(1000)")]
+        [StringLength(999)]
         public string? Tresc { get; set; }
 
     }
